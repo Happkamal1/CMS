@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "Img": "1.jpg",
+    "title": "JavaScript: The Good Parts",
+    "category": "Programming"
+  },
+  {
+    "id": 2,
+    "Img": "2.jpg",
+    "title": "A Brief History of Time",
+    "category": "Science"
+  },
+  {
+    "id": 3,
+    "Img": "3.jpg",
+    "title": "To Kill a Mockingbird",
+    "category": "Fiction"
+  },
+  {
+    "id": 4,
+    "Img": "4.webp",
+    "title": "Success",
+    "category": "Science"
+  },
+  {
+    "id": 5,
+    "Img": "1.jpg",
+    "title": "JavaScript: The Good Parts",
+    "category": "Programming"
+  },
+  {
+    "id": 6,
+    "Img": "2.jpg",
+    "title": "A Brief History of Time",
+    "category": "Science"
+  },
+  {
+    "id": 7,
+    "Img": "3.jpg",
+    "title": "To Kill a Mockingbird",
+    "category": "Fiction"
+  },
+  {
+    "id": 8,
+    "Img": "4.webp",
+    "title": "Success",
+    "category": "Science"
+  }
+]
