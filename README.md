@@ -1,5 +1,5 @@
-master HEAD
-CMS
+Read This : If you see the theme You can Checkout outr Snap of Our Project.
+
 A simple and efficient Course Management System designed to streamline course creation, student enrollment , Course Selection , Result , Events and Workshop for educational institutions, training centers, or individual instructors looking to manage their courses and students effectively.
 React + Vite
 
@@ -13,4 +13,3 @@ Currently, two official plugins are available:
 
 A simple and efficient Course Management System designed to streamline course creation, student enrollment , Course Selection , Result , Events and Workshop for educational institutions, training centers, or individual instructors looking to manage their courses and students effectively
  main
-Read This
