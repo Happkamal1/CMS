@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from "react";
 
+const imageModules = import.meta.glob("../BookImg/*", { eager: true });
+
 const Book = ({ book }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
   useEffect(() => {
-    import(`../BookImg/${book.Img}`)
-      .then((module) => {
-        setImageSrc(module.default);
-      })
-      .catch((error) => console.error("Error loading image:", error));
+    const imagePath = `../BookImg/${book.Img}`;
+    const module = imageModules[imagePath];
+    
+    if (module) {
+      setImageSrc(module.default);
+    } else {
+      console.error(`Image not found: ${imagePath}`);
+    }
   }, [book.Img]);
 
   if (!imageSrc) {
